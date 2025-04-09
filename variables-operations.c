@@ -2,14 +2,20 @@
 
 int main(){
     //Rectangle
-    int b = 4, h=16;
-    int area = b*h;
-    int perimeter = b*2+h*2;
-     printf("area = %d \n",area);
-     printf("perimeter = %d \n", perimeter);
+    int height;
+    int length;
+     printf("Enter the rectangles height: ");
+     scanf("%d", &height);
+     printf("Enter the rectangle length:");
+     scanf("%d", &length);
+     int area = height * length;
+     int perimeter = height+height+length+length;
+     printf("area")
 
      //Temperature
-     int farenheit = 18;
+     int farenheit;
+     printf("Enter the temperature in farenheit: ");
+     scanf("%d", &farenheit);
      int celsius = (farenheit-32)/1.8;
      printf("%d°F = %d°C\n", farenheit, celsius);
 
@@ -24,7 +30,7 @@ int main(){
      const float pi= 3.14159265359;
      int circleArea = pi * (radio*radio);
      printf("Area of a circle = %d \n", circleArea);
-     scanf()
+     scanf("%d", &circleArea);
 
      return 0;
 }
