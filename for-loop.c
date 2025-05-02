@@ -21,5 +21,9 @@ int main() {
     scanf("%d",&f);
 
     int multiplication = 1;
-    
+    int s;
+    for(s=1; s < f + 1; ++s){
+        multiplication = multiplication *s;
+    }
+    printf("%d \n", multiplication);
 }
